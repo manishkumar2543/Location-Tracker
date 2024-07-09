@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(148, 200, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 80%;
+    width: 21%;
+    background-color: #fff;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(20, 19, 19);
+}
+
+nav{
+   width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: auto;
+
+   
+   
+}
+.search input{
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 35px;
+    font-weight: 600;
+    color: black;
+}
+.arrow{
+    margin-right: 15px;
+    font-size: 18px;
+}
+.map-section{
+    height: 300px;
+    width: 100%;
+
+
+  
+}
+.map-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.head-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.share{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(133, 132, 132);
+    border-radius: 50%;
+}
+.head h2{
+    font-size: 18px;
+}
+
+.main-loc p{
+    font-size: 14px;
+    color: rgb(81, 77, 77);
+}
+.rating p{
+    color: rgb(81, 77, 77);
+    
+}
+.Choching-center{
+    display: flex;
+    color: rgb(81, 77, 77); 
+}
+.location{
+    margin-top: 10px;
+    padding: 0px 10px;
+    border-top: 2px solid black;
+    border-radius: 20px;
+}
+.allocate{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 13px 5px;
+}
+.Direction{
+    display: flex;
+    gap: 5px;
+    padding:5px 8px;
+    background-color: rgb(27, 27, 234);
+    border-radius: 50px;
+    color: white;
+    
+}
+.allocate div:nth-child(2){
+    display: flex;
+    gap: 5px;
+    padding:5px 10px;
+  color: blue;
+border: 1px solid gray;   
+ border-radius: 50px;  
+}
+.allocate div:nth-child(3){
+    display: flex;
+    gap: 5px;
+    padding:5px 8px;
+   color: blue;
+    border-radius: 50px;
+    border: 1px solid gray; 
+}
